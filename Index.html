@@ -1,0 +1,72 @@
+DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parol bilan himoyalangan sahifa</title>
+</head>
+<body>
+    <h1>Veb-saytga kirish</h1>
+    
+    <script>
+        var correctPassword = "12345"; // Sizning parolingiz
+        var userPassword = prompt("Saytga kirish uchun parolni kiriting:");
+
+        // Agar parol to'g'ri bo'lsa, saytga kirish imkonini beradi
+        if (userPassword === correctPassword) {
+            document.body.innerHTML = "<h1>SIZ JUDA HAM OMADLI VA KUCHLI INSONSIZ</h1><p>BIZ SIZGA ISHONAMIZ!!!</p>";
+        } else {
+            // Agar parol noto'g'ri bo'lsa, foydalanuvchiga xato parol haqida xabar beradi
+            document.body.innerHTML = "<h1>Parol xato!</h1><p>Saytga kira olmaysiz.</p>";
+        }
+    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOMUS sm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Assalomu alaykum!</h1>
+        <p>FOMUS 
+        XUSH KELIBSIZ!</p>
+    </header>
+    <main>
+        <button id="myButton">siz uddalaysiz</button>
+        <p id="result"></p>
+    </main>
+    <footer>
+        <p>&copy;YENGILMAYDIGANLARNI YUTIB BO'LMAYDI!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video darslik</title>
+</head>
+<body>
+    <h1>Olg'a kettik ^*</h1>
+    <p>Mana, siz uchun video darslik:</p>
+
+    <!-- Video faylini joylashtirish -->
+    <video width="100%" controls>
+        <source src="futbol.mp4" type="video/mp4">
+        Sizning brauzeringiz video faylni qo'llab-quvvatlamaydi.
+    </video>
+</body>
+</html>
+<video width="640" height="360" controls>
+    <source src="futbol.mp4" type="video/mp4">
+    Sizning brauzeringiz bu video formatini qo‘llab-quvvatlamaydi.
+</video>
